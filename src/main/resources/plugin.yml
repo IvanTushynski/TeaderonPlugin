@@ -1,0 +1,10 @@
+name: TeaderonPlugin
+version: '${project.version}'
+main: com.mainclass.teaderon.TeaderonPlugin
+api-version: 1.18
+
+commands:
+  lottery:
+    description: Teaderon Lottery
+    aliases:
+      - teaderonlottery
