@@ -13,8 +13,10 @@ public class JoinEvent implements Listener {
     @EventHandler
     public void onJoinEvent(PlayerJoinEvent pj) {
         Player p = pj.getPlayer();
-        p.sendMessage(ChatColor.BLUE + "---Группа в FB---");
+        p.sendMessage(ChatColor.DARK_AQUA + "---Сообщество в VK---");
         p.sendMessage(ChatColor.WHITE + "https://vk.com/teaderon");
+        p.sendMessage(ChatColor.BLUE + "---T",ChatColor.BLACK + "ikT",ChatColor.RED + "ok---");
+        p.sendMessage(ChatColor.WHITE + "https://www.tiktok.com/@teaderon.minecraft");
         p.sendMessage(ChatColor.BLUE + "---Дискорд Сервер---");
         p.sendMessage(ChatColor.WHITE + "https://discord.gg/e7hFthYUjd");
     }
