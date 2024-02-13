@@ -4,4 +4,5 @@ Plugin for MMORPG server TEADERON
 Damage event(with %) when HP higher 20+
 
 IP server: play.teaderon.com
+
 Language: rus
