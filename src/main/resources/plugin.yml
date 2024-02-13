@@ -1,0 +1,34 @@
+name: Teaderon
+version: '${project.version}'
+main: org.teaderon.Teaderon
+api-version: '1.16'
+
+commands:
+  lottery:
+    description: Teaderon Lottery
+    aliases:
+      - teaderonlottery
+  chestfreavell:
+    description: Random Open Chest
+    aliases:
+      - chestopenfreavell
+  chestromenna:
+    description: Random Open Chest
+    aliases:
+      - chestopenromenna
+  chestlinhir:
+    description: Random Open Chest
+    aliases:
+      - chestopenlinhir
+  chesttrakling:
+    description: Random Open Chest
+    aliases:
+      - chestopentrakling
+  chestdolamrot:
+    description: Random Open Chest
+    aliases:
+      - chestopendolamrot
+  chestzelfard:
+    description: Random Open Chest
+    aliases:
+      - chestopenzelfard
