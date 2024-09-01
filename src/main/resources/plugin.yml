@@ -32,3 +32,23 @@ commands:
     description: Random Open Chest
     aliases:
       - chestopenzelfard
+  chestelementsone:
+    description: Random Open Element Chest
+    aliases:
+      - chestopenelementsone
+  chestelementstwo:
+    description: Random Open Element Chest
+    aliases:
+      - chestopenelementstwo
+  chestelementsthree:
+    description: Random Open Element Chest
+    aliases:
+      - chestopenelementsthree
+  chestelementsfour:
+    description: Random Open Element Chest
+    aliases:
+      - chestopenelementsfour
+  chestelementsfive:
+    description: Random Open Element Chest
+    aliases:
+      - chestopenelementsfive

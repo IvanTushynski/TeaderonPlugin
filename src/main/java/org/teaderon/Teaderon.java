@@ -29,6 +29,11 @@ public final class Teaderon extends JavaPlugin implements Listener {
         this.getCommand("chestopentrakling").setExecutor(new ChestOpenTrakling());
         this.getCommand("chestopendolamrot").setExecutor(new ChestOpenDolamrot());
         this.getCommand("chestopenzelfard").setExecutor(new ChestOpenZelfard());
+        this.getCommand("chestopenelementsone").setExecutor(new ChestOpenElementsOne());
+        this.getCommand("chestopenelementstwo").setExecutor(new ChestOpenElementsTwo());
+        this.getCommand("chestopenelementsthree").setExecutor(new ChestOpenElementsThree());
+        this.getCommand("chestopenelementsfour").setExecutor(new ChestOpenElementsFour());
+        this.getCommand("chestopenelementsfive").setExecutor(new ChestOpenElementsFive());
     }
 
     @Override

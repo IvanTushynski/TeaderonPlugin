@@ -25,14 +25,14 @@ public class ChestOpenZelfard implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player)sender;
-            int[] exp = new int[260];
+            int[] exp = new int[280];
             int check = (int)Math.floor(Math.random() * (double)exp.length);
             if (check >= 0 && check <= 20) {
                 this.executeCommand4(player, true, "mi give MISCELLANEOUS SILVER_COIN %player% 2");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "Серебрянная Монета 2 Штуки!", ChatColor.RED + "Поздравляем", 2, 30, 2);
             } else if (check >= 21 && check <= 40) {
-                this.executeCommand4(player, true, "mi give MISCELLANEOUS BRONZE_COIN %player% 30");
+                this.executeCommand4(player, true, "mi give MISCELLANEOUS BRONZE_COIN %player% 64");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "64 Бронзовые Монеты!", ChatColor.RED + "Поздравляем", 2, 30, 2);
             } else if (check >= 41 && check <= 60) {
@@ -75,11 +75,11 @@ public class ChestOpenZelfard implements CommandExecutor {
                 this.executeCommand4(player, true, "mi give MATERIAL LOG6 %player% 30");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "30 Брёвен Тёмного Дуба!", ChatColor.RED + "Поздравляем", 2, 30, 2);
-            } else if (check >= 221 && check <= 240) {
+            } else if (check >= 241 && check <= 260) {
                 this.executeCommand4(player, true, "mi give MATERIAL LEATHER6 %player% 20");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "Зелфардская Шкура 20 штук!", ChatColor.RED + "Поздравляем", 2, 30, 2);
-            } else if (check >= 241 && check <= 260) {
+            } else if (check >= 261 && check <= 280) {
                 this.executeCommand4(player, true, "mi give MATERIAL LEATHER6 %player% 30");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "Зелфардская Шкура 30 штук!", ChatColor.RED + "Поздравляем", 2, 30, 2);
