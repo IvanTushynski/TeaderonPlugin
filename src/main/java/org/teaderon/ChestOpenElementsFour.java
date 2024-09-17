@@ -225,7 +225,6 @@ public class ChestOpenElementsFour implements CommandExecutor {
                 player.sendTitle(ChatColor.DARK_RED + "Глава III - Стихии!", ChatColor.GOLD + "Поздравляем", 2, 30, 2);
             }
         }
-
         return false;
     }
 
