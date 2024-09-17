@@ -25,7 +25,7 @@ public class ChestOpenElementsOne implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player)sender;
-            int[] exp = new int[200];
+            int[] exp = new int[210];
             int check = (int)Math.floor(Math.random() * (double)exp.length);
             if (check >= 0 && check <= 10) {
                 this.executeCommand5(player, true, "mi give GEM_STONE ARMORFIREELEMENT1 %player% 1");
@@ -123,6 +123,10 @@ public class ChestOpenElementsOne implements CommandExecutor {
                 this.executeCommand5(player, true, "mi give GEM_STONE DARKNESSELEMENT2 %player% 1");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.DARK_RED + "Стихийный Самоцвет 2 Уровня!", ChatColor.GOLD + "Поздравляем", 2, 30, 2);
+            } else if (check >= 201 && check <= 210) {
+                this.executeCommand5(player, true, "mi give TOME BOOK_ELEMENTS_WORLD %player% 1");
+                player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
+                player.sendTitle(ChatColor.DARK_RED + "Глава III - Стихии!", ChatColor.GOLD + "Поздравляем", 2, 30, 2);
             }
         }
 
