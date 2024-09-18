@@ -52,13 +52,13 @@ public class ChestOpenDolamrot  implements CommandExecutor {
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "20 Глубоководных Окуней!", ChatColor.RED + "Поздравляем", 2, 30, 2);
             } else if (check >= 121 && check <= 140) {
-                this.executeCommand4(player, true, "mi give CONSUMABLE COOKIE1 %player% 10");
+                this.executeCommand4(player, true, "mi give CONSUMABLE COOKIE1 %player% 2");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
-                player.sendTitle(ChatColor.GOLD + "10 Печенек!", ChatColor.RED + "Поздравляем", 2, 30, 2);
+                player.sendTitle(ChatColor.GOLD + "2 Печеньки!", ChatColor.RED + "Поздравляем", 2, 30, 2);
             } else if (check >= 141 && check <= 160) {
-                this.executeCommand4(player, true, "mi give CONSUMABLE COOKIE1 %player% 20");
+                this.executeCommand4(player, true, "mi give CONSUMABLE COOKIE1 %player% 4");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
-                player.sendTitle(ChatColor.GOLD + "20 Печенек!", ChatColor.RED + "Поздравляем", 2, 30, 2);
+                player.sendTitle(ChatColor.GOLD + "4 Печеньки!", ChatColor.RED + "Поздравляем", 2, 30, 2);
             } else if (check >= 161 && check <= 180) {
                 this.executeCommand4(player, true, "mi give MATERIAL ORE3 %player% 20");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
