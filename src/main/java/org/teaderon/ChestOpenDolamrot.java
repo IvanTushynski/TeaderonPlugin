@@ -25,7 +25,7 @@ public class ChestOpenDolamrot  implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player)sender;
-            int[] exp = new int[260];
+            int[] exp = new int[280];
             int check = (int)Math.floor(Math.random() * (double)exp.length);
             if (check >= 0 && check <= 20) {
                 this.executeCommand4(player, true, "mi give MISCELLANEOUS SILVER_COIN %player% 1");
@@ -75,11 +75,11 @@ public class ChestOpenDolamrot  implements CommandExecutor {
                 this.executeCommand4(player, true, "mi give MATERIAL LOG4 %player% 30");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "30 Дубовых Брёвен!", ChatColor.RED + "Поздравляем", 2, 30, 2);
-            } else if (check >= 221 && check <= 240) {
+            } else if (check >= 241 && check <= 260) {
                 this.executeCommand4(player, true, "mi give MATERIAL LEATHER4 %player% 20");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "Дол Амротская 20 штук!", ChatColor.RED + "Поздравляем", 2, 30, 2);
-            } else if (check >= 241 && check <= 260) {
+            } else if (check >= 261 && check <= 280) {
                 this.executeCommand4(player, true, "mi give MATERIAL LEATHER4 %player% 30");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "Дол Амротская Шкура 30 штук!", ChatColor.RED + "Поздравляем", 2, 30, 2);

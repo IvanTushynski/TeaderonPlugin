@@ -75,11 +75,11 @@ public class ChestOpenTrakling implements CommandExecutor {
                 this.executeCommand4(player, true, "mi give MATERIAL LOG2 %player% 30");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "30 Еловых Брёвен!", ChatColor.RED + "Поздравляем", 2, 30, 2);
-            } else if (check >= 221 && check <= 240) {
+            } else if (check >= 241 && check <= 260) {
                 this.executeCommand4(player, true, "mi give MATERIAL LEATHER3 %player% 20");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "Заячья Шкура 20 штук!", ChatColor.RED + "Поздравляем", 2, 30, 2);
-            } else if (check >= 241 && check <= 260) {
+            } else if (check >= 261 && check <= 280) {
                 this.executeCommand4(player, true, "mi give MATERIAL LEATHER3 %player% 30");
                 player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
                 player.sendTitle(ChatColor.GOLD + "Заячья Шкура 30 штук!", ChatColor.RED + "Поздравляем", 2, 30, 2);
