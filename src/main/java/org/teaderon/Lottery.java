@@ -119,7 +119,7 @@ public class Lottery  implements CommandExecutor {
                     data.setPower(0);
                     firework.setFireworkMeta(data);
                 } else if (check == 100) {
-                    this.executeCommand(player, true, "give %player% diamond 32");
+                    this.executeCommand(player, true, "mi give MISCELLANEOUS DIAMOND %player% 32");
                     player.playSound(player.getLocation(), Sound.MUSIC_DRAGON, 1.0F, 1.0F);
                     player.sendTitle(ChatColor.DARK_RED + "!!!Джекпот - 32 Алмаза!!!", ChatColor.GOLD + "Поздравляем", 2, 30, 2);
                     firework = (Firework)player.getPlayer().getWorld().spawn(player.getPlayer().getLocation(), Firework.class);
